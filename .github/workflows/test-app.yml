@@ -38,7 +38,6 @@ jobs:
       - name: "Run Tests"
         run: cd wrapped && python manage.py test -v 3
 
-
   build:
     name: "Construção do Container"
     needs: test
